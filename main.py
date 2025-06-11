@@ -44,4 +44,5 @@ def index():
 def serve_images(path):
     return send_from_directory('static/img', path)
 
+
 app.run(debug=True)
